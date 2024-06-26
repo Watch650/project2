@@ -3,7 +3,7 @@ from ultralytics import YOLO
 import numpy as np
 
 
-model = YOLO(r'C:\Users\Asus\Desktop\scul\B2\Machine Learning and Data Mining\project2\runs\classify\train3\weights\last.pt')  # load a custom model
+model = YOLO(r'C:\Users\Asus\Desktop\scul\B2\Machine Learning and Data Mining\project2\runs\classify\train3\weights\last.pt')  # load path of a custom pre-trained model
 
 results = model(r'C:\Users\Asus\Desktop\scul\B2\Machine Learning and Data Mining\project2\Test Image\vegetables.png')  # predict on an image
 
